@@ -3,3 +3,25 @@
   margin: 0px;
   padding: 0px;
 }
+
+body {
+  background-color: #5190d5;
+}
+
+.snowflake {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  top:-8px;
+  z-index: 1;
+}
+
+@keyframes fall {
+  from {}
+  to {
+    transform: translateY(90vh);
+    opacity: 0;
+  }
+}
